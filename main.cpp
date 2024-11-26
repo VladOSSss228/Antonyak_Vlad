@@ -15,7 +15,7 @@ bool canFirstPlayerWin(int x1, int y1, int x2, int y2) {
 int main() {
     int t;
     cin >> t;
-
+    int i = 1;
     while (t--) {
         int x1, y1, x2, y2;
         cin >> x1 >> y1 >> x2 >> y2;
@@ -26,7 +26,10 @@ int main() {
         else {
             cout << "NO\n";
         }
+
     }
+
+    std::cout << "hello new branch" + i << std::endl;
 
     return 0;
 }
